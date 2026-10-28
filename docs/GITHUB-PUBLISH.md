@@ -1,10 +1,10 @@
 # 上传 GitHub 与发布 1.0.0
 
-这是给仓库维护者的操作说明。公开仓库已发布：https://github.com/SweetPotato3553/still 。以下保留后续发布时的操作说明。
+这是给仓库维护者的操作说明。公开仓库已发布：https://github.com/SweetPotato3553/intentional-browsing 。以下保留后续发布时的操作说明。
 
 ## 建议的仓库信息
 
-- 展示名称：不入流｜B站 / 小红书首页去推荐插件。仓库地址保持 `SweetPotato3553/still`，避免已有链接失效。
+- 展示名称：不入流｜B站 / 小红书首页去推荐插件。英文仓库名为 `intentional-browsing`，旧地址由 GitHub 自动重定向。
 - About：`不入流｜B站 / 小红书首页去推荐插件。跳过首页推荐流，直达搜索和自己的收藏夹。`
 - Topics：`browser-extension`、`chrome-extension`、`edge-extension`、`bilibili`、`xiaohongshu`、`focus`。
 - 许可证已采用 MIT；版权署名使用项目集体名称 Still contributors，没有填写私人姓名或邮箱。
