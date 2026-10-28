@@ -1,11 +1,11 @@
 # 上传 GitHub 与发布 1.0.0
 
-这是给仓库维护者的操作说明。目录已经准备好，但尚未创建远程仓库或上传任何文件。
+这是给仓库维护者的操作说明。公开仓库已发布：https://github.com/SweetPotato3553/still 。以下保留后续发布时的操作说明。
 
 ## 建议的仓库信息
 
-- 名称：`still` 或 `intentional-browsing`。
-- About：`给 B站和小红书换一个安静的首页。搜索、收藏直达、限时休息，三种风格可切换。`
+- 展示名称：不入流｜B站 / 小红书首页去推荐插件。仓库地址保持 `SweetPotato3553/still`，避免已有链接失效。
+- About：`不入流｜B站 / 小红书首页去推荐插件。跳过首页推荐流，直达搜索和自己的收藏夹。`
 - Topics：`browser-extension`、`chrome-extension`、`edge-extension`、`bilibili`、`xiaohongshu`、`focus`。
 - 许可证已采用 MIT；版权署名使用项目集体名称 Still contributors，没有填写私人姓名或邮箱。
 
@@ -24,7 +24,7 @@
 
 ## 发布正式安装包
 
-在 GitHub 仓库的 Releases 创建 `v1.0.0`，标题可用「知止 Still 1.0.0」。附加本次整理后构建的 `intentional-browsing-chromium-1.0.0.zip`，它补充了 MIT 许可证和公开文档，运行时代码与原正式版逐文件一致。本次交付的发布附件在源码目录旁的 `github-release-1.0.0` 文件夹中；之后自行构建则在 `dist` 中。
+在 GitHub 仓库的 Releases 创建 `v1.0.0`，标题可用「不入流 v1.0.0｜B站 / 小红书首页去推荐插件」。附加本次整理后构建的 `intentional-browsing-chromium-1.0.0.zip`，它补充了 MIT 许可证和公开文档，运行时代码与原正式版逐文件一致。本次交付的发布附件在源码目录旁的 `github-release-1.0.0` 文件夹中；之后自行构建则在 `dist` 中。
 
 还可以附加源码包和同目录的 SHA256SUMS.txt，方便下载者校验。不要把 940 特别版、整个旧工作区或浏览器数据附到 Release。
 
