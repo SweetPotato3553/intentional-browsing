@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "results": [
+    "Popup selection updates both entry pages, full copy, typography, and logo without reloading or losing input",
+    "Entry style panel previews both themes and switching back restores the original style while keeping favorites and language",
+    "Language and theme remain independent, synchronize across views, and survive page reload",
+    "Active rest/setup overlays switch colors and typography live without resetting either deadline or changing native page theme/layout",
+    "A full browser restart restores the selected style, language, and shared favorites"
+  ],
+  "scope": "Actual unpacked extension in isolated Edge; websites mocked; no account sign-in."
+}

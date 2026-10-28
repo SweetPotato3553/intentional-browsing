@@ -1,0 +1,350 @@
+{
+  "siteBilibili": {
+    "message": "B站"
+  },
+  "siteXiaohongshu": {
+    "message": "小红书"
+  },
+  "languageLabel": {
+    "message": "界面语言"
+  },
+  "searchPlatform": {
+    "message": "搜索平台"
+  },
+  "searchLabel": {
+    "message": "搜索内容"
+  },
+  "searchAction": {
+    "message": "去搜索"
+  },
+  "favoriteSettings": {
+    "message": "设置"
+  },
+  "favoriteSettingsLabel": {
+    "message": "设置收藏夹地址"
+  },
+  "favoriteHelp": {
+    "message": "粘贴你想直达的收藏夹地址。"
+  },
+  "favoriteBilibili": {
+    "message": "B站收藏夹"
+  },
+  "favoriteXiaohongshu": {
+    "message": "小红书收藏"
+  },
+  "favoriteHint": {
+    "message": "先在网站中打开你的学习收藏夹，再复制地址栏网址。小红书请保留收藏标签参数。"
+  },
+  "favoriteFirstTitle": {
+    "message": "先选你的学习收藏夹"
+  },
+  "favoriteFirstHelp": {
+    "message": "不知道地址也没关系：先去网站找到收藏夹，或直接粘贴已知链接。"
+  },
+  "saveAndOpen": {
+    "message": "保存并打开"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "favoriteSaved": {
+    "message": "收藏入口已保存。"
+  },
+  "favoriteLoadError": {
+    "message": "无法读取收藏设置：{error}"
+  },
+  "searchOpenError": {
+    "message": "未能打开搜索：{error}"
+  },
+  "favoriteResume": {
+    "message": "正在打开刚才的收藏…"
+  },
+  "searchResume": {
+    "message": "正在继续刚才的搜索…"
+  },
+  "loginLink": {
+    "message": "需要登录？打开纯净登录页"
+  },
+  "breakBack": {
+    "message": "返回"
+  },
+  "minutes": {
+    "message": "分钟"
+  },
+  "minutesLabel": {
+    "message": "休息分钟数"
+  },
+  "minutesRange": {
+    "message": "1–180 分钟"
+  },
+  "timerLabel": {
+    "message": "休息倒计时"
+  },
+  "timerRemaining": {
+    "message": "剩余休息时间"
+  },
+  "timerValue": {
+    "message": "还剩 {time}"
+  },
+  "timerEnd": {
+    "message": "结束"
+  },
+  "timerEndTitle": {
+    "message": "提前结束休息"
+  },
+  "loginHelp": {
+    "message": "请使用小红书自己的登录框。未显示时可重试，或临时打开原站登录。"
+  },
+  "loginContinue": {
+    "message": "我已登录，继续"
+  },
+  "loginReturn": {
+    "message": "返回纯净入口"
+  },
+  "openingEntry": {
+    "message": "正在打开纯净入口…"
+  },
+  "invalidSite": {
+    "message": "请选择有效的网站。"
+  },
+  "invalidFavorite": {
+    "message": "请填写完整的{site}收藏夹网址。"
+  },
+  "favoriteHttps": {
+    "message": "请使用{site}的 HTTPS 收藏夹网址。"
+  },
+  "favoriteNotHome": {
+    "message": "请填写具体收藏夹地址，不能填写推荐首页。"
+  },
+  "emptySearch": {
+    "message": "先写下你想找的内容。"
+  },
+  "invalidSource": {
+    "message": "来源无效。"
+  },
+  "invalidTab": {
+    "message": "无法识别当前标签页。"
+  },
+  "breakFromEntry": {
+    "message": "请从纯净入口开始休息。"
+  },
+  "invalidMinutes": {
+    "message": "请输入 1–180 之间的整数分钟。"
+  },
+  "unsupported": {
+    "message": "不支持的操作。"
+  },
+  "unexpectedError": {
+    "message": "操作未完成，请重试。"
+  },
+  "popupBilibili": {
+    "message": "去 B站"
+  },
+  "popupXiaohongshu": {
+    "message": "去小红书"
+  },
+  "popupHelp": {
+    "message": "搜索、收藏、限时休息。"
+  },
+  "extensionDescription": {
+    "message": "用搜索、收藏与限时休息取代 B站和小红书的推荐首页。"
+  },
+  "findBilibili": {
+    "message": "去 B站找收藏夹"
+  },
+  "findXiaohongshu": {
+    "message": "去小红书找收藏夹"
+  },
+  "setupHelp": {
+    "message": "仅设置页临时放行 3 分钟。找到学习收藏夹后，点击页面顶部的“保存此页”。"
+  },
+  "setupTitle": {
+    "message": "正在选择学习收藏夹"
+  },
+  "setupChooseCollection": {
+    "message": "请先打开具体收藏夹；小红书打开你的个人主页即可。"
+  },
+  "setupReady": {
+    "message": "已识别收藏页，可以保存为你的直达入口。"
+  },
+  "setupCapture": {
+    "message": "保存此页"
+  },
+  "setupCancel": {
+    "message": "返回专注"
+  },
+  "setupRemaining": {
+    "message": "临时设置还剩 {time}"
+  },
+  "setupExpired": {
+    "message": "设置入口已结束，可以重新打开。"
+  },
+  "setupEnded": {
+    "message": "已退出临时设置。"
+  },
+  "setupOpened": {
+    "message": "设置页已打开。找到学习收藏夹后，点击页面顶部的“保存此页”。"
+  },
+  "setupBusy": {
+    "message": "正在保存…"
+  },
+  "setupTimeLabel": {
+    "message": "设置剩余时间"
+  },
+  "brand": {
+    "message": "知止"
+  },
+  "extensionName": {
+    "message": "知止 · 你学不学"
+  },
+  "headline": {
+    "message": "这次，想找什么？"
+  },
+  "tagline": {
+    "message": "有所寻，亦有所止。"
+  },
+  "placeholder": {
+    "message": "输入此刻想寻找的内容"
+  },
+  "favoriteAction": {
+    "message": "打开收藏"
+  },
+  "favoriteTitle": {
+    "message": "让收藏，直达所需。"
+  },
+  "breakLink": {
+    "message": "休息一下"
+  },
+  "breakConfirmTitle": {
+    "message": "现在，休息一下？"
+  },
+  "breakConfirmHelp": {
+    "message": "暂时打开首页推荐，结束后回到这里。"
+  },
+  "breakCancel": {
+    "message": "继续专注"
+  },
+  "breakConfirm": {
+    "message": "确定休息"
+  },
+  "breakDurationTitle": {
+    "message": "想休息多久？"
+  },
+  "breakDurationHelp": {
+    "message": "给休息留一段明确的时间。"
+  },
+  "breakStart": {
+    "message": "开始休息"
+  },
+  "breakEnded": {
+    "message": "休息结束，回到此刻。"
+  },
+  "loginTitle": {
+    "message": "登录后，继续心之所向。"
+  },
+  "popupIntro": {
+    "message": "有所寻，亦有所止。"
+  },
+  "loginRetry": {
+    "message": "重新打开登录框"
+  },
+  "loginFallback": {
+    "message": "仍未显示？打开原站登录（5 分钟）"
+  },
+  "loginWindowHelp": {
+    "message": "此页及其子标签临时放行 5 分钟，请在小红书原站完成登录，再点击“我已登录，继续”。"
+  },
+  "loginTimeLabel": {
+    "message": "登录剩余时间"
+  },
+  "loginRemaining": {
+    "message": "临时登录还剩 {time}"
+  },
+  "loginEnded": {
+    "message": "临时登录已结束，已返回纯净入口。需要时可再次打开登录。"
+  },
+  "setupCollapse": {
+    "message": "收起"
+  },
+  "setupExpand": {
+    "message": "展开"
+  },
+  "setupDrag": {
+    "message": "拖动标题或此处移动浮窗，也可用方向键微调"
+  },
+  "setupProfileReady": {
+    "message": "已识别个人主页，保存后直达此账号的收藏。"
+  },
+  "appearanceAction": {
+    "message": "风格"
+  },
+  "appearanceHeading": {
+    "message": "选择浏览风格"
+  },
+  "appearanceHelp": {
+    "message": "三种风格，共用搜索、收藏与计时设置。"
+  },
+  "appearanceInlineHeading": {
+    "message": "界面风格"
+  },
+  "appearanceZenName": {
+    "message": "知止 · Still"
+  },
+  "appearanceZenDescription": {
+    "message": "温和留白 · 宋体"
+  },
+  "appearancePlayfulName": {
+    "message": "你学不学"
+  },
+  "appearancePlayfulDescription": {
+    "message": "黑白粗体 · 直接提醒"
+  },
+  "appearanceDone": {
+    "message": "完成"
+  },
+  "appearanceSaveError": {
+    "message": "风格未能保存，请重试。"
+  },
+  "appearanceFriendName": {
+    "message": "同桌"
+  },
+  "appearanceFriendDescription": {
+    "message": "短信留言 · 自己写"
+  },
+  "friendAttribution": {
+    "message": "{name}"
+  },
+  "friendNameLabel": {
+    "message": "朋友名字"
+  },
+  "friendMessageLabel": {
+    "message": "留言内容"
+  },
+  "friendEditorHelp": {
+    "message": "固定显示你写的这一条，切换语言也不会改写。"
+  },
+  "friendSave": {
+    "message": "保存留言"
+  },
+  "friendSaved": {
+    "message": "留言已保存。"
+  },
+  "friendEmpty": {
+    "message": "写个名字，再留一句话。"
+  },
+  "friendSaveError": {
+    "message": "留言未能保存，请重试。"
+  },
+  "connectionTimeout": {
+    "message": "连接暂时没有回应，请重试或重新加载页面。"
+  },
+  "reloadPage": {
+    "message": "重新加载"
+  },
+  "friendChannel": {
+    "message": "短信"
+  }
+}

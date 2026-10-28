@@ -1,0 +1,350 @@
+{
+  "siteBilibili": {
+    "message": "Bilibili"
+  },
+  "siteXiaohongshu": {
+    "message": "Xiaohongshu"
+  },
+  "languageLabel": {
+    "message": "Interface language"
+  },
+  "searchPlatform": {
+    "message": "Search platform"
+  },
+  "searchLabel": {
+    "message": "Search query"
+  },
+  "searchAction": {
+    "message": "Search"
+  },
+  "favoriteSettings": {
+    "message": "Set up"
+  },
+  "favoriteSettingsLabel": {
+    "message": "Set favorite folder addresses"
+  },
+  "favoriteHelp": {
+    "message": "Paste the collection you want to open directly."
+  },
+  "favoriteBilibili": {
+    "message": "Bilibili collection"
+  },
+  "favoriteXiaohongshu": {
+    "message": "Xiaohongshu saved posts"
+  },
+  "favoriteHint": {
+    "message": "Open your study collection on the site, then copy its URL. Keep the saved-posts tab parameters for Xiaohongshu."
+  },
+  "favoriteFirstTitle": {
+    "message": "Choose your study collection"
+  },
+  "favoriteFirstHelp": {
+    "message": "Not sure of the URL? Find your collection on the site, or paste a link you already know."
+  },
+  "saveAndOpen": {
+    "message": "Save and open"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "favoriteSaved": {
+    "message": "Your collection links are saved."
+  },
+  "favoriteLoadError": {
+    "message": "Could not load collections: {error}"
+  },
+  "searchOpenError": {
+    "message": "Could not open search: {error}"
+  },
+  "favoriteResume": {
+    "message": "Opening your collection…"
+  },
+  "searchResume": {
+    "message": "Continuing your search…"
+  },
+  "loginLink": {
+    "message": "Need to sign in? Open the quiet login page"
+  },
+  "breakBack": {
+    "message": "Back"
+  },
+  "minutes": {
+    "message": "minutes"
+  },
+  "minutesLabel": {
+    "message": "Break duration in minutes"
+  },
+  "minutesRange": {
+    "message": "1–180 minutes"
+  },
+  "timerLabel": {
+    "message": "Break countdown"
+  },
+  "timerRemaining": {
+    "message": "Break time remaining"
+  },
+  "timerValue": {
+    "message": "{time} remaining"
+  },
+  "timerEnd": {
+    "message": "End"
+  },
+  "timerEndTitle": {
+    "message": "End your break early"
+  },
+  "loginHelp": {
+    "message": "Use Xiaohongshu's own sign-in form. If it does not appear, retry or temporarily open the original site."
+  },
+  "loginContinue": {
+    "message": "I'm signed in. Continue"
+  },
+  "loginReturn": {
+    "message": "Back to the quiet entry"
+  },
+  "openingEntry": {
+    "message": "Opening the quiet entry…"
+  },
+  "invalidSite": {
+    "message": "Choose a supported website."
+  },
+  "invalidFavorite": {
+    "message": "Enter a full {site} collection URL."
+  },
+  "favoriteHttps": {
+    "message": "Use an HTTPS collection URL on {site}."
+  },
+  "favoriteNotHome": {
+    "message": "Enter a specific collection URL, not the recommendation homepage."
+  },
+  "emptySearch": {
+    "message": "Write down what you want to find first."
+  },
+  "invalidSource": {
+    "message": "Invalid request source."
+  },
+  "invalidTab": {
+    "message": "The current tab could not be identified."
+  },
+  "breakFromEntry": {
+    "message": "Start your break from the quiet entry."
+  },
+  "invalidMinutes": {
+    "message": "Enter a whole number from 1 to 180 minutes."
+  },
+  "unsupported": {
+    "message": "This action is not supported."
+  },
+  "unexpectedError": {
+    "message": "That did not complete. Please try again."
+  },
+  "popupBilibili": {
+    "message": "Open Bilibili"
+  },
+  "popupXiaohongshu": {
+    "message": "Open Xiaohongshu"
+  },
+  "popupHelp": {
+    "message": "Search, collections, and timed breaks."
+  },
+  "extensionDescription": {
+    "message": "Replace Bilibili and Xiaohongshu home feeds with search, collections, and timed breaks."
+  },
+  "findBilibili": {
+    "message": "Find my Bilibili collection"
+  },
+  "findXiaohongshu": {
+    "message": "Find my Xiaohongshu collection"
+  },
+  "setupHelp": {
+    "message": "Only setup tabs are unlocked, for up to 3 minutes. Find your study collection, then choose “Save this page” at the top."
+  },
+  "setupTitle": {
+    "message": "Choose your study collection"
+  },
+  "setupChooseCollection": {
+    "message": "Open a collection first. On Xiaohongshu, open your own profile."
+  },
+  "setupReady": {
+    "message": "Collection page found. Save it as your direct destination."
+  },
+  "setupCapture": {
+    "message": "Save this page"
+  },
+  "setupCancel": {
+    "message": "Back to focus"
+  },
+  "setupRemaining": {
+    "message": "Setup access: {time} left"
+  },
+  "setupExpired": {
+    "message": "Setup access has ended. You can open it again."
+  },
+  "setupEnded": {
+    "message": "Temporary setup has ended."
+  },
+  "setupOpened": {
+    "message": "The setup tab is open. Find your study collection and choose “Save this page” at the top."
+  },
+  "setupBusy": {
+    "message": "Saving…"
+  },
+  "setupTimeLabel": {
+    "message": "Setup time left"
+  },
+  "brand": {
+    "message": "Still"
+  },
+  "extensionName": {
+    "message": "Still · Study or Not"
+  },
+  "headline": {
+    "message": "What brings you here?"
+  },
+  "tagline": {
+    "message": "Seek with intention. Know when to pause."
+  },
+  "placeholder": {
+    "message": "What would you like to find?"
+  },
+  "favoriteAction": {
+    "message": "Open collection"
+  },
+  "favoriteTitle": {
+    "message": "A quiet way to your collections."
+  },
+  "breakLink": {
+    "message": "Take a break"
+  },
+  "breakConfirmTitle": {
+    "message": "A moment to pause?"
+  },
+  "breakConfirmHelp": {
+    "message": "The home feed will open until your break ends."
+  },
+  "breakCancel": {
+    "message": "Stay focused"
+  },
+  "breakConfirm": {
+    "message": "Take a break"
+  },
+  "breakDurationTitle": {
+    "message": "How long would you like?"
+  },
+  "breakDurationHelp": {
+    "message": "Give your break a clear ending."
+  },
+  "breakStart": {
+    "message": "Begin break"
+  },
+  "breakEnded": {
+    "message": "Your break is over. Return to this moment."
+  },
+  "loginTitle": {
+    "message": "Sign in, then follow your intention."
+  },
+  "popupIntro": {
+    "message": "Seek with intention. Know when to pause."
+  },
+  "loginRetry": {
+    "message": "Open sign-in form again"
+  },
+  "loginFallback": {
+    "message": "Still missing? Open the original site (5 minutes)"
+  },
+  "loginWindowHelp": {
+    "message": "This tab and its child tabs are unlocked for 5 minutes. Sign in on Xiaohongshu, then choose “I'm signed in. Continue”."
+  },
+  "loginTimeLabel": {
+    "message": "Sign-in time left"
+  },
+  "loginRemaining": {
+    "message": "Sign-in access: {time} left"
+  },
+  "loginEnded": {
+    "message": "Temporary sign-in access has ended. You can open sign-in again."
+  },
+  "setupCollapse": {
+    "message": "Collapse"
+  },
+  "setupExpand": {
+    "message": "Expand"
+  },
+  "setupDrag": {
+    "message": "Drag here or the title to move; use arrow keys to adjust"
+  },
+  "setupProfileReady": {
+    "message": "Profile found. Save a direct link to this account’s saved posts."
+  },
+  "appearanceAction": {
+    "message": "Style"
+  },
+  "appearanceHeading": {
+    "message": "Choose your browsing style"
+  },
+  "appearanceHelp": {
+    "message": "Three styles share your search, collections, and timers."
+  },
+  "appearanceInlineHeading": {
+    "message": "Interface style"
+  },
+  "appearanceZenName": {
+    "message": "Still"
+  },
+  "appearanceZenDescription": {
+    "message": "Quiet spacing · Serif type"
+  },
+  "appearancePlayfulName": {
+    "message": "Study or Not"
+  },
+  "appearancePlayfulDescription": {
+    "message": "Bold monochrome · Direct words"
+  },
+  "appearanceDone": {
+    "message": "Done"
+  },
+  "appearanceSaveError": {
+    "message": "Could not save the style. Please try again."
+  },
+  "appearanceFriendName": {
+    "message": "Study buddy"
+  },
+  "appearanceFriendDescription": {
+    "message": "A text message you write"
+  },
+  "friendAttribution": {
+    "message": "{name}"
+  },
+  "friendNameLabel": {
+    "message": "Friend’s name"
+  },
+  "friendMessageLabel": {
+    "message": "Message"
+  },
+  "friendEditorHelp": {
+    "message": "Your fixed message stays exactly as written, even when the interface language changes."
+  },
+  "friendSave": {
+    "message": "Save message"
+  },
+  "friendSaved": {
+    "message": "Message saved."
+  },
+  "friendEmpty": {
+    "message": "Enter a name and a message."
+  },
+  "friendSaveError": {
+    "message": "Could not save the message. Please try again."
+  },
+  "connectionTimeout": {
+    "message": "The connection did not respond. Try again or reload the page."
+  },
+  "reloadPage": {
+    "message": "Reload"
+  },
+  "friendChannel": {
+    "message": "Message"
+  }
+}

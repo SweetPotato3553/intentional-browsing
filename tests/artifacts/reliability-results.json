@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "results": [
+    "High-frequency native feed changes do not repeatedly redraw the countdown",
+    "Non-responsive content-script notifications cannot block break start/end or leave the worker queue stuck",
+    "Search content is visible before slow IPC resolves, including result grids that reuse the home-feed id",
+    "Hidden or empty native login placeholders do not trigger a full-page search veil",
+    "Closing a login overlay releases the search veil even when the site retains the hidden dialog DOM",
+    "SPA navigation back to a home route immediately restores the recommendation guard",
+    "A stalled settings read has a deadline and cannot keep an entry page white or disable its search form",
+    "Restoring a cached document clears stale ending flags and prevents a permanent blank page or delayed unwanted redirect",
+    "Back navigation leaves the entry form usable for another search",
+    "A one-time rule-restore failure is retryable and does not poison every subsequent break request",
+    "Delayed initial settings snapshots cannot overwrite newer theme, language, or custom-note changes from another tab"
+  ],
+  "scope": "Isolated Edge loads a temporary extension copy with a startup API-fault shim; websites mocked; persisted pageshow simulated explicitly."
+}

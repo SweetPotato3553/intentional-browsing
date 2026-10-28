@@ -1,0 +1,40 @@
+.appearance-trigger{position:fixed;top:38px;right:132px;padding:4px 8px;border:0;border-bottom:1px solid var(--line);color:var(--muted);font:12px/1.6 "Segoe UI","Microsoft YaHei",sans-serif;letter-spacing:0;background:transparent}
+.appearance-trigger::before,.appearance-picker button::before{display:none}
+.appearance-picker{box-sizing:border-box;color:var(--ink);font:13px/1.6 "Segoe UI","Microsoft YaHei",sans-serif;text-align:left;letter-spacing:0}
+.appearance-dialog{width:min(780px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;padding:28px;border:1px solid var(--line);border-radius:12px;background:var(--paper);box-shadow:0 12px 52px #0002}
+.appearance-dialog::backdrop{background:#0003;backdrop-filter:blur(3px)}
+.appearance-picker h2{font:600 20px/1.5 "Segoe UI","Microsoft YaHei",sans-serif;margin:0 0 8px;letter-spacing:0;color:var(--ink)}
+.appearance-help{font-size:12px;color:var(--muted);margin:0 0 20px;line-height:1.7;letter-spacing:0}
+.appearance-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:0;margin:0;border:0;min-width:0}
+.appearance-card{position:relative;display:flex;flex-direction:column;gap:10px;padding:14px;border:1px solid var(--line);border-radius:9px;cursor:pointer;background:var(--paper);min-width:0}
+.appearance-card:has(input:checked){border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.appearance-card:has(input:focus-visible){outline:2px solid var(--ink);outline-offset:4px}
+.appearance-card input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;padding:0;flex:none}
+.appearance-card-head{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;font-weight:600;line-height:1.4}
+.appearance-check{visibility:hidden;font-size:13px}.appearance-card:has(input:checked) .appearance-check{visibility:visible}
+.appearance-preview{display:flex;flex-direction:column;justify-content:center;gap:14px;padding:18px 12px;min-height:112px;border-radius:5px;overflow:hidden;background:#faf9f6;color:#302e2a}
+.appearance-preview-title{font:400 16px/1.7 "STZhongsong","SimSun",serif;letter-spacing:1px}
+.appearance-preview-line{display:block;width:75%;height:1px;background:#cfcac1}
+.appearance-preview[data-preview="playful"]{background:#f4f4f4;color:#252525}.appearance-preview[data-preview="playful"] .appearance-preview-title{font:800 17px/1.5 "Microsoft YaHei","Segoe UI",sans-serif;letter-spacing:-.3px}.appearance-preview[data-preview="playful"] .appearance-preview-line{height:6px;background:#444;border-radius:2px;width:55%}
+.appearance-description{font-size:11px;color:var(--muted);line-height:1.6;letter-spacing:0}
+.appearance-preview[data-preview="friend"]{background:#edf2f7;color:#26323d}.appearance-preview[data-preview="friend"] .appearance-preview-title{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font:500 14px/1.7 "Microsoft YaHei","Segoe UI",sans-serif;letter-spacing:0;overflow-wrap:anywhere}.appearance-preview[data-preview="friend"] .appearance-preview-line{background:#8fa2b3;width:65%}
+.appearance-friend-editor{margin:18px 0 0;padding:16px;border:1px solid var(--line);border-radius:8px;background:var(--paper)}
+.appearance-friend-editor[hidden]{display:none!important}
+.friend-field{display:block;font-size:12px;margin-bottom:12px;color:var(--ink)}
+.friend-field>span{display:block;margin-bottom:5px;font-weight:600}
+.friend-field input,.friend-field textarea{box-sizing:border-box;display:block;width:100%;min-width:0;max-width:100%;margin:0;border:1px solid var(--line);border-radius:5px;background:var(--paper);padding:9px 10px;color:var(--ink);font:13px/1.6 "Segoe UI","Microsoft YaHei",sans-serif;letter-spacing:0;resize:vertical}
+.friend-field input:focus,.friend-field textarea:focus{outline:1px solid var(--ink);outline-offset:1px}
+.friend-editor-help{font-size:11px;color:var(--muted);margin:0 0 12px;line-height:1.6}
+.friend-save-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.friend-save{border:0;border-radius:5px;padding:8px 14px!important;background:var(--ink)!important;color:var(--paper)!important;font:12px/1.5 "Segoe UI","Microsoft YaHei",sans-serif;letter-spacing:0}
+.friend-save:disabled{opacity:.6}.friend-save-status{font-size:11px;line-height:1.6;color:var(--muted)}
+.appearance-actions{display:flex;justify-content:flex-end;margin-top:20px}
+.appearance-done{padding:8px 18px!important;background:var(--ink)!important;color:var(--paper)!important;border:0;border-radius:5px;font:13px/1.5 "Segoe UI","Microsoft YaHei",sans-serif;letter-spacing:0}
+.appearance-error{font-size:12px;line-height:1.6;color:var(--ink);margin:10px 0 0}.appearance-error:empty{display:none}
+.appearance-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.appearance-inline{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.appearance-inline h2{font-size:13px}.appearance-inline .appearance-help{font-size:11px;margin-bottom:12px}.appearance-inline .appearance-card{padding:10px;gap:8px}.appearance-inline .appearance-preview{padding:12px 8px;min-height:92px}.appearance-inline .appearance-preview-title{font-size:13px}.appearance-inline .appearance-preview[data-preview="playful"] .appearance-preview-title{font-size:14px}.appearance-inline .appearance-card-head{font-size:12px}.appearance-inline .appearance-description{font-size:10px}
+.appearance-inline .appearance-cards{gap:8px}.appearance-inline .appearance-card{padding:10px 8px}.appearance-inline .appearance-preview{display:none}.appearance-inline .appearance-friend-editor{padding:12px}
+.appearance-preview[data-preview="friend"]{background:transparent}.appearance-preview[data-preview="friend"] .appearance-preview-title{padding:10px 12px;border-radius:12px 12px 12px 4px;background:#e9e9ed;color:#30333a;font-weight:400}.appearance-preview[data-preview="friend"] .appearance-preview-line{display:none}
+body.popup{box-sizing:border-box;width:360px;max-height:590px;overflow-y:auto;margin:0;padding:22px 20px 18px}body.popup>p{margin:12px 0 16px}body.popup>small{margin-top:14px}body.popup>.language-switch{margin-top:12px}html:not([data-ui-ready="true"]) .popup{visibility:hidden}
+@media(max-width:520px){.appearance-dialog{padding:20px}.appearance-dialog .appearance-cards{grid-template-columns:1fr}.appearance-dialog .appearance-preview{min-height:90px}.appearance-trigger{top:26px;right:106px}}

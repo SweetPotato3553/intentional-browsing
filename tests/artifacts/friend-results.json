@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "results": [
+    "Third style opens with one fixed example, editable name/message, and the requested attribution layout",
+    "The previous shipped example migrates to the new default text without requiring a settings reset",
+    "Saving in the popup updates both platform pages without changing search input, favorites, theme, or language",
+    "Done saves edited fields; cross-page updates preserve an editor’s unsaved draft",
+    "Blank notes are rejected while the previous saved message remains intact",
+    "Names, markup-like text, placeholders, and newlines render literally and stay unchanged across language switches and reloads",
+    "Switching to other styles preserves the fixed note; entry and editor remain usable at narrow widths",
+    "The selected friend style, fixed note, and shared favorites survive a full browser restart"
+  ],
+  "scope": "Actual unpacked extension in isolated Edge; no external accounts."
+}

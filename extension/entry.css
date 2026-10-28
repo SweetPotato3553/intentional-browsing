@@ -1,0 +1,83 @@
+@charset "UTF-8";
+:root {font-family:"Segoe UI","Microsoft YaHei",sans-serif;color:var(--ink,#302e2a);background:var(--paper,#faf9f6);color-scheme:light}
+html:not([data-ui-ready="true"]) body{visibility:hidden}
+*{box-sizing:border-box}
+::selection{background:#e7e2d9;color:#302e2a}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:110px 28px 100px}
+main{width:min(580px,100%);text-align:center}
+.brand{position:fixed;top:38px;left:44px;display:flex;align-items:center;gap:13px;color:#6d6962;font-size:12px;font-weight:400;letter-spacing:3px}
+.mark{display:inline-block;width:23px;height:23px;font-size:0;border:1.5px solid #827c72;border-right-color:transparent;border-bottom-width:1px;border-radius:50%;transform:rotate(-32deg)}
+nav{display:flex;justify-content:center;gap:36px;margin-bottom:58px}
+nav a{position:relative;padding:0 0 10px;color:#858078;text-decoration:none;font-size:12px;letter-spacing:2px}
+nav a[aria-current]{color:#302e2a}
+nav a[aria-current]::after{content:"";position:absolute;left:50%;bottom:0;width:16px;height:1px;background:#625c52;transform:translateX(-50%)}
+a:focus-visible,button:focus-visible{outline:1px solid #827c72;outline-offset:6px}
+.eyebrow{display:none}
+h1{margin:0 0 20px;font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC","SimSun",serif;font-size:clamp(29px,4vw,38px);font-weight:400;line-height:1.6;letter-spacing:5px}
+.intro{margin:0 0 48px;color:var(--muted,#807a71);font-size:12px;font-weight:400;letter-spacing:2px;line-height:1.9}
+.search{display:flex;align-items:center;min-height:65px;border-bottom:1px solid #cfcac1;text-align:left}
+.search:focus-within{border-bottom-color:#6c655b}
+input{flex:1;min-width:0;border:0;outline:none;background:transparent;padding:20px 5px;color:#302e2a;font:inherit;font-size:15px;letter-spacing:1px}
+input::placeholder{color:#898379;font-size:13px}
+button{position:relative;border:0;background:transparent;padding:12px 3px 12px 24px;color:#4c463e;font:inherit;font-size:12px;letter-spacing:2px;cursor:pointer;white-space:nowrap}
+button::before{content:"";position:absolute;left:0;top:50%;height:16px;width:1px;background:#ded9d0;transform:translateY(-50%)}
+button:hover{color:#141311}
+button span{display:inline-block;padding-left:12px;font-size:16px}
+.status{min-height:20px;margin:14px 0 0;color:#805746;font-size:12px;text-align:left}
+.footnote{margin:25px 0 0;font-size:11px;color:#827c72;letter-spacing:1px}
+.login-link{display:inline-block;margin-top:19px;color:#716a60;font-size:11px;letter-spacing:1px;text-decoration-color:#c8c1b6;text-underline-offset:5px}
+.login-link:hover{color:#302e2a}
+footer{position:fixed;bottom:36px;color:#8b857b;font-family:"SimSun",serif;font-size:11px;letter-spacing:4px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.break-link{position:fixed;right:34px;bottom:28px;padding:8px 6px;color:#8b857b;font-size:10px;letter-spacing:1px}
+.break-link::before,.break-dialog button::before{display:none}
+.break-link:hover{color:#4c463e}
+.break-dialog{width:min(390px,calc(100vw - 48px));border:1px solid #e2ded6;padding:38px 30px 30px;color:#302e2a;background:#faf9f6;text-align:center}
+.break-dialog::backdrop{background:rgba(48,46,42,.14);backdrop-filter:blur(3px)}
+.break-dialog h2{margin:0 0 24px;font:400 25px/1.6 "SimSun",serif;letter-spacing:2px}
+.break-dialog p{color:#807a71;font-size:12px;line-height:1.9}
+.break-actions{display:flex;justify-content:center;gap:32px;margin-top:34px}
+.break-dialog button{padding:8px 0;letter-spacing:1px;font-size:12px}
+.break-dialog button:last-child{border-bottom:1px solid #cfcac1}
+.break-dialog button:disabled{opacity:.5;cursor:wait}
+.minutes-field{display:flex;justify-content:center;align-items:baseline;gap:12px;margin-top:28px}
+.minutes-field input{flex:none;width:95px;text-align:center;border-bottom:1px solid #cfcac1;padding:8px 0;font:32px "SimSun",serif;letter-spacing:0}
+.minutes-field input:focus{border-bottom-color:#6c655b}
+.minutes-field span{font-size:12px;color:#807a71}
+.break-dialog .break-range{font-size:10px;margin:14px 0 0;color:#8b857b}
+#break-error{min-height:18px;color:#805746;font-size:11px;margin:8px 0 0}
+.status[data-tone="calm"]{color:#807a71;text-align:center;font-size:11px;letter-spacing:1px}
+.favorites-entry{display:flex;align-items:center;justify-content:center;gap:16px;margin:6px 0 29px}
+.favorites-entry a{color:#625c52;text-decoration:none;font-size:12px;letter-spacing:2px}
+.favorites-entry a:hover{color:#302e2a}
+.favorites-entry a span{margin-left:6px;font-size:13px}
+.favorites-entry a span[data-i18n]{margin-left:0;font-size:12px}
+.search button span[data-i18n]{padding-left:0;font-size:12px}
+.language-switch{position:fixed;right:40px;top:36px;display:flex;align-items:center;gap:8px;color:#b1aaa0;font-size:10px}
+.language-switch button{padding:6px 3px;font-size:11px;color:#8b857b;letter-spacing:.5px}
+.language-switch button::before{display:none}
+.language-switch button[aria-pressed="true"]{color:#302e2a}
+.favorites-entry button{padding:3px 0 3px 16px;font-size:10px;color:#8b857b;letter-spacing:1px}
+.favorites-entry button::before{height:10px}
+.favorites-dialog{width:min(520px,calc(100vw - 40px));padding:35px 32px 28px}
+.favorites-dialog label{display:block;text-align:left;margin:25px 0 0;font-size:12px;color:#625c52;letter-spacing:1px}
+.favorites-dialog input{display:block;width:100%;padding:13px 0 10px;border-bottom:1px solid #cfcac1;font-size:12px;letter-spacing:0}
+.favorites-dialog input:focus{border-bottom-color:#6c655b}
+.favorites-dialog .favorites-hint{font-size:11px;text-align:left;margin:20px 0 0}
+#favorites-error{min-height:18px;font-size:11px;color:#805746;text-align:left;margin:8px 0 0}
+.find-collection{margin:24px 0 20px;text-align:left;border-bottom:1px solid var(--line,#cfcac1);padding-bottom:18px}
+.find-collection button{padding:7px 0;font-size:12px;color:var(--ink,#302e2a);border-bottom:1px solid var(--line,#cfcac1)}
+.find-collection button::before{display:none}
+.find-collection button::after{content:"↗";display:inline-block;margin-left:8px;font-size:15px;line-height:1}
+.find-collection p{font-size:11px;line-height:1.8;margin:12px 0 0}
+.favorites-dialog [hidden]{display:none!important}
+@media(max-width:520px){
+body{padding:110px 28px 90px}.brand{top:30px;left:28px}nav{margin-bottom:43px}
+h1{font-size:28px;letter-spacing:2px}.intro{font-size:11px;letter-spacing:1px;margin-bottom:34px}
+input{font-size:14px;padding:20px 0}input::placeholder{font-size:12px;letter-spacing:0}
+button{padding-left:14px;font-size:11px;letter-spacing:1px}button span{padding-left:4px}
+.footnote{font-size:10px;letter-spacing:0}footer{bottom:28px}
+.break-link{right:20px;bottom:16px}
+.language-switch{right:24px;top:26px}
+}
+@media(max-height:600px){body{display:block;padding-top:100px}main{margin:auto}nav{margin-bottom:24px}footer{position:static;text-align:center;margin-top:52px}}

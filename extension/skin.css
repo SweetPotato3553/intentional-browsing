@@ -1,0 +1,73 @@
+/* Both original skins, scoped to the saved selection. */
+/* A fixed received text message, with a sender and a restrained SMS bubble. */
+html[data-theme="friend"]{--paper:#f7f7f8;--ink:#202124;--muted:#7b7d83;--line:#dedfe3;--accent:#7a8793}
+html[data-theme="friend"] body{background:var(--paper)}
+html[data-theme="friend"] main{width:min(660px,100%)}
+html[data-theme="friend"] .brand{color:#666a73;font-weight:600;font-size:13px;letter-spacing:1px}
+html[data-theme="friend"] .mark{width:27px;height:23px;border:1.5px solid #9a9da5;border-radius:8px;transform:none;position:relative}
+html[data-theme="friend"] .mark::after{content:"···";position:absolute;inset:-1px 0 0;text-align:center;font:700 17px/20px "Segoe UI",sans-serif;color:#7d828d}
+html[data-theme="friend"] nav{margin-bottom:40px}
+html[data-theme="friend"] h1{position:relative;margin:0 0 42px;padding:0;border:0;background:transparent;text-align:left;font:400 27px/1.6 "Microsoft YaHei","Segoe UI",sans-serif;letter-spacing:0}
+html[data-theme="friend"] .friend-sms-header{display:flex;align-items:center;gap:12px;margin:0 0 15px 4px}
+html[data-theme="friend"] .friend-avatar{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:42px;height:42px;border:1px solid #dadce1;border-radius:50%;background:linear-gradient(150deg,#e8eaee,#dfe2e8);color:#767c89;font:600 16px/1 "Microsoft YaHei","Segoe UI",sans-serif}
+html[data-theme="friend"] .friend-contact{display:flex;flex-direction:column;gap:2px;min-width:0}
+html[data-theme="friend"] .friend-attribution{display:block;color:#363941;font:600 14px/1.5 "Microsoft YaHei","Segoe UI",sans-serif;overflow-wrap:anywhere}
+html[data-theme="friend"] .friend-channel{display:block;color:#93969e;font:11px/1.4 "Segoe UI","Microsoft YaHei",sans-serif;letter-spacing:.5px}
+html[data-theme="friend"] .friend-copy{display:block;position:relative;width:fit-content;max-width:calc(100% - 52px);margin-left:52px;padding:16px 22px;border:1px solid #e1e2e6;border-radius:20px 20px 20px 6px;background:#e9e9ed;box-shadow:0 1px 2px #20212405;white-space:pre-wrap;overflow-wrap:anywhere}
+html[data-theme="friend"] .intro{display:none}
+html[data-theme="friend"] .search{min-height:64px;border:1px solid #d8dbe1;border-radius:12px;padding:6px 7px 6px 17px;background:#fff;gap:12px;box-shadow:0 2px 10px #20212403}
+html[data-theme="friend"] .search:focus-within{border-color:#9299a6}
+html[data-theme="friend"] .search input{padding:14px 0;color:var(--ink);letter-spacing:0}
+html[data-theme="friend"] .search input::placeholder{color:#9a9da5}
+html[data-theme="friend"] .search button{border-radius:8px;background:#343941;color:#fff;padding:11px 16px;letter-spacing:1px}
+html[data-theme="friend"] .search button::before{display:none}
+html[data-theme="friend"] .favorites-entry a{color:#6e737d}
+html[data-theme="friend"] .break-dialog{border-radius:12px;border-color:var(--line);background:var(--paper)}
+html[data-theme="friend"] .break-dialog h2{font-family:"Microsoft YaHei","Segoe UI",sans-serif;letter-spacing:0;font-weight:600}
+html[data-theme="friend"] .language-switch button[aria-pressed="true"]{color:var(--ink);font-weight:600}
+@media(max-width:520px){html[data-theme="friend"] h1{font-size:23px}html[data-theme="friend"] .friend-copy{max-width:calc(100% - 18px);margin-left:18px;padding:14px 18px}html[data-theme="friend"] nav{margin-bottom:30px}}
+html[data-theme="zen"]{--paper:#faf9f6;--ink:#302e2a;--muted:#807a71;--line:#cfcac1;--accent:#625c52}
+html[data-theme="zen"] h1,html[data-theme="zen"] .break-dialog h2{font-family:"STZhongsong","华文中宋","Noto Serif CJK SC","SimSun",serif;font-weight:400}
+html[data-theme="zen"] h1{font-size:clamp(30px,4vw,39px);letter-spacing:3px}
+html[data-theme="zen"][lang="en"] h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(32px,4vw,44px);letter-spacing:-.7px}
+html[data-theme="zen"] .intro{letter-spacing:3px}
+html[data-theme="zen"][lang="en"] .intro{letter-spacing:.5px}
+html[data-theme="playful"]{--paper:#fafafa;--ink:#252525;--muted:#777;--line:#d4d4d4;--accent:#595959}
+html[data-theme="playful"] ::selection{background:#dedede;color:#252525}
+html[data-theme="playful"] body{background:var(--paper)}
+html[data-theme="playful"] main{width:min(800px,100%)}
+html[data-theme="playful"] .brand{color:var(--ink);font-weight:750;font-size:15px;letter-spacing:1px}
+html[data-theme="playful"] .mark{width:27px;height:27px;border:0;border-radius:7px;background:var(--ink);transform:none;position:relative}
+html[data-theme="playful"] .mark::after{content:"?";font:800 20px/27px "Segoe UI",sans-serif;color:var(--paper);position:absolute;inset:0;text-align:center}
+html[data-theme="playful"] nav{margin-bottom:44px;gap:18px}
+html[data-theme="playful"] nav a{padding:8px 10px 10px;border:0;font-size:12px;letter-spacing:1px}
+html[data-theme="playful"] nav a[aria-current]{background:transparent;color:var(--ink);font-weight:650}
+html[data-theme="playful"] nav a[aria-current]::after{display:block;background:var(--ink)}
+html[data-theme="playful"] h1{font-family:"Microsoft YaHei","Source Han Sans SC","Segoe UI",sans-serif;font-size:clamp(32px,4.4vw,55px);font-weight:800;line-height:1.35;letter-spacing:-1px;margin-bottom:19px}
+html[data-theme="playful"] h1::after{display:none}
+html[data-theme="playful"] .intro{font-size:14px;letter-spacing:1.5px;margin-bottom:40px}
+html[data-theme="playful"] .search{width:min(640px,100%);margin:auto;border:1px solid #bdbdbd;border-radius:8px;padding:6px 7px 6px 17px;background:#fff;box-shadow:none;min-height:66px}
+html[data-theme="playful"] .search:focus-within{border-color:var(--ink);box-shadow:none}
+html[data-theme="playful"] .search button{border-radius:7px;background:var(--ink);color:var(--paper);padding:12px 18px;font-weight:650}
+html[data-theme="playful"] .search button::before{display:none}
+html[data-theme="playful"] .search button:hover{background:#444;color:#fff}
+html[data-theme="playful"] .search input{padding:15px 0;font-size:15px}
+html[data-theme="playful"] .search input::placeholder{font-size:13px}
+html[data-theme="playful"] .favorites-entry{margin-top:7px}
+html[data-theme="playful"] .favorites-entry a{font-weight:650;color:var(--ink)}
+html[data-theme="playful"] .break-dialog{border:1px solid #d4d4d4;border-radius:8px;background:var(--paper);box-shadow:none}
+html[data-theme="playful"] .break-dialog h2{font-family:"Microsoft YaHei","Segoe UI",sans-serif;font-weight:750;font-size:24px;letter-spacing:-.3px}
+html[data-theme="playful"] .break-dialog button:last-child{border-bottom:2px solid var(--accent)}
+html[data-theme="playful"] .language-switch button[aria-pressed="true"]{color:var(--ink);font-weight:750}
+html[data-theme="playful"][lang="en"] h1{font-size:clamp(32px,4.1vw,52px);max-width:790px;margin-left:auto;margin-right:auto;letter-spacing:-1.7px}
+html[data-theme="playful"][lang="en"] .intro{letter-spacing:.5px}
+@media(max-width:520px){html[data-theme="playful"] main{width:100%}
+html[data-theme="playful"] h1{font-size:32px;letter-spacing:-1px}
+html[data-theme="playful"] .search{padding-left:11px;box-shadow:none}
+html[data-theme="playful"] .search button{padding:12px 13px}
+html[data-theme="playful"] .search input{font-size:14px}
+html[data-theme="playful"] .search input::placeholder{font-size:12px}
+html[data-theme="playful"] .intro{font-size:12px;letter-spacing:1px}
+html[data-theme="playful"] .brand{font-size:13px}
+html[data-theme="playful"] nav{margin-bottom:35px}
+html[data-theme="playful"][lang="en"] h1{font-size:35px;letter-spacing:-1px}}

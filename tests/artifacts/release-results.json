@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "results": [
+    "DNR home redirect and entry dependencies work with HTML-only WAR",
+    "frame-ancestors blocks embedding an entry page from an external website",
+    "Login query cannot bypass DNR; explicit entry click creates bounded tab access; cancellation revokes it",
+    "Manual favorites reject video/search/space-home URLs and normalize supported collection links; double settings click is safe",
+    "External setup child is preserved on cancel, expiry, capture and owner close",
+    "Failed break end retains live state and retry UI; successful end preserves existing search and media",
+    "Early setup alarm re-arms; failed expiry schedules retry; retry removes permission and state",
+    "Failed setup attachment closes the blank helper instead of leaving an orphan tab",
+    "Lost setup rule/alarm are repaired; rerunning worker initialization preserves the original deadline",
+    "Failed setup cancellation retains the page and state until revocation succeeds",
+    "Stylesheet-hidden native login container cannot trap a search page behind the veil"
+  ],
+  "status": "passed"
+}

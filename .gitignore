@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.zip
+**/_metadata/
+**/__pycache__/
+*.pyc
+tests/artifacts/*
+!tests/artifacts/*.json
+.env
+.env.*
+.DS_Store
+Thumbs.db

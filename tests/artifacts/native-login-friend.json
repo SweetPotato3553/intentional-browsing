@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "results": [
+    "intentional-browsing: native login opens after delayed hydration; dialog visible and feed hidden",
+    "intentional-browsing: renamed login container is discovered and unmasked",
+    "intentional-browsing: 5-minute fallback shows native site/countdown; reload does not extend it; unrelated home tab remains blocked",
+    "intentional-browsing: completing fallback resumes original search and revokes access",
+    "intentional-browsing: completing fallback resumes original favorite and revokes access",
+    "intentional-browsing: cancellation returns to the quiet entry and revokes access",
+    "intentional-browsing: worker alarm expires access without relying on the content timer",
+    "intentional-browsing: child tab inherits the same deadline; closing the owner revokes the entire group",
+    "intentional-browsing: existing 3-minute collection setup still captures favorites; no page errors"
+  ],
+  "limitation": "Local fixtures in isolated Edge; no real account sign-in was performed."
+}

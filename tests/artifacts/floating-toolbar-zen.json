@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "results": [
+    "intentional-browsing: homepage remains unsaveable; cross-tab/forged capture rejected; website layout unchanged",
+    "intentional-browsing: collapse makes a short floating bar, retaining countdown and capture",
+    "intentional-browsing: collapsed state survives native navigation; a parameterless profile enables capture",
+    "intentional-browsing: pointer dragging, keyboard adjustment, viewport bounds, and position persistence work",
+    "intentional-browsing: both expanded and collapsed widgets stay inside a narrow viewport",
+    "intentional-browsing: capture canonicalizes the real profile URL, preserves tokens, and opens the native Saved tab after hydration",
+    "intentional-browsing: later user tab choices are respected after the initial saved-tab restoration",
+    "intentional-browsing: clicking Saved without any URL change still saves and reopens the correct collection"
+  ],
+  "scope": "Isolated Edge with mocked native tabs; no live account sign-in."
+}

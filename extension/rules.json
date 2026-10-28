@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/bilibili.html"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://(www\\.)?bilibili\\.com/(index\\.html)?(\\?[^#]*)?$",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/xiaohongshu.html"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://(www\\.)?xiaohongshu\\.com/(explore/?)?(\\?[^#]*)?$",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]

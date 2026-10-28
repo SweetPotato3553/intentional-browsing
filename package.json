@@ -1,0 +1,20 @@
+{
+  "name": "intentional-browsing-extension",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run.cjs",
+    "test:theme": "node tests/theme-regression.cjs",
+    "build": "python build.py",
+    "test:friend": "node tests/friend-regression.cjs",
+    "test:reliability": "node tests/reliability-regression.cjs",
+    "test:release": "node tests/release-regression.cjs",
+    "verify": "python tools/verify_release.py",
+    "build:source": "python build.py --source"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "license": "MIT",
+  "description": "Quiet home pages for Bilibili and Xiaohongshu, with search, collections and timed breaks."
+}

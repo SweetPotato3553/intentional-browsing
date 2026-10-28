@@ -1,0 +1,19 @@
+/* Fail closed: this stylesheet arrives before the site's DOM or scripts. */
+html:not([data-focus-view="content"]) { background: #faf9f6 !important; }
+html[data-focus-theme="playful"]:not([data-focus-view="content"]) { background: #fafafa !important; }
+html[data-focus-theme="friend"]:not([data-focus-view="content"]) { background: #f7f7f8 !important; }
+html:not([data-focus-view="content"]) body { visibility: hidden !important; }
+html:not([data-focus-view="content"]) body * { visibility: hidden !important; }
+html:not([data-focus-view="content"]) #focus-search-guard { visibility: visible !important; }
+html[data-focus-view="login"] :is(.login-container,.login-modal,.login-box,[data-focus-native-login]),
+html[data-focus-view="login"] :is(.login-container,.login-modal,.login-box,[data-focus-native-login]) * { visibility: visible !important; }
+/* Some verification widgets are mounted outside the login dialog. */
+html[data-focus-view="login"] :is(.captcha-container,.red-captcha-modal,.geetest_panel,.yidun_modal,.yidun_popup),
+html[data-focus-view="login"] :is(.captcha-container,.red-captcha-modal,.geetest_panel,.yidun_modal,.yidun_popup) * { visibility: visible !important; }
+/* Recommendation hints in the site's search box aren't user queries. */
+html[data-focus-site="xiaohongshu"]:not([data-focus-break="active"]):not([data-focus-setup="active"]) :is(.sug-box,.search-recommend,.search-hot-list,.ai-dropdown-panel .suggestion-section) { display: none !important; }
+/* Hide home grids even during an SPA's first route update. Search grids use other roots. */
+html[data-focus-site="xiaohongshu"][data-focus-home="true"]:not([data-focus-break="active"]):not([data-focus-setup="active"]) #exploreFeeds { visibility: hidden !important; }
+html[data-focus-site="xiaohongshu"][data-focus-home="true"]:not([data-focus-break="active"]):not([data-focus-setup="active"]) #exploreFeeds * { visibility: hidden !important; }
+html[data-focus-site="bilibili"][data-focus-home="true"][data-focus-home-host="true"]:not([data-focus-break="active"]):not([data-focus-setup="active"]) :is(.recommended-container_floor-aside,.recommended-swipe,.bili-feed4-layout) { visibility: hidden !important; }
+html[data-focus-site="bilibili"][data-focus-home="true"][data-focus-home-host="true"]:not([data-focus-break="active"]):not([data-focus-setup="active"]) :is(.recommended-container_floor-aside,.recommended-swipe,.bili-feed4-layout) * { visibility: hidden !important; }
