@@ -1,4 +1,6 @@
-# 不入流 | Bilibili / Xiaohongshu Home Feed Remover
+# intentional-browsing
+
+不入流 · Bilibili / Xiaohongshu Home Feed Remover
 
 Skip home-page recommendation feeds and go straight to search or your saved collections.
 
