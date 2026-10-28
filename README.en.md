@@ -1,6 +1,6 @@
-# Still · Study or Not
+# 不入流 | Bilibili / Xiaohongshu Home Feed Remover
 
-A quiet home page for Bilibili and Xiaohongshu. Search for what you came for, or open your saved course collection.
+Skip home-page recommendation feeds and go straight to search or your saved collections.
 
 [中文](README.md) · [Installation](docs/INSTALL.md) · [Privacy](PRIVACY.md) · [Development](docs/DEVELOPMENT.md)
 
