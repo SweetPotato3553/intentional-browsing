@@ -4,12 +4,12 @@
 
 ## 支持什么
 
-电脑端 Chrome / Edge，B站与小红书网页版。Manifest 最低版本为 Chromium 120，测试环境是 Windows Edge。手机里的 B站 / 小红书 App 不适用。
+电脑端 Chrome / Edge，B站与小红书网页版。要求 Chromium 120 或以上，已在 Windows Edge 上完成模拟站点自动化验证。其他满足最低版本的 Chromium 浏览器预计兼容，欢迎反馈兼容性问题。手机里的 B站 / 小红书 App 不适用。
 
 ## 方式一：下载正式安装包
 
-1. 进入 GitHub 仓库的 **Releases** 页面，找到 `v1.0.0`。
-2. 在 Assets 下载 `intentional-browsing-chromium-1.0.0.zip`。普通使用者不需要下载带 `source` 的开发包。
+1. 打开 [v1.0.0 下载页](https://github.com/SweetPotato3553/intentional-browsing/releases/tag/v1.0.0)。
+2. 在 Assets 下载 [intentional-browsing-chromium-1.0.0.zip](https://github.com/SweetPotato3553/intentional-browsing/releases/download/v1.0.0/intentional-browsing-chromium-1.0.0.zip)。普通使用者不需要下载带 `source` 的开发包。
 3. 解压到固定位置，例如自己新建的插件文件夹。
 
 正确的加载层级：

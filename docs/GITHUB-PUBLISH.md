@@ -4,7 +4,7 @@
 
 ## 建议的仓库信息
 
-- 展示名称：不入流｜B站 / 小红书首页去推荐插件。英文仓库名为 `intentional-browsing`，旧地址由 GitHub 自动重定向。
+- README 主标题：`intentional-browsing`；中文副标题：不入流｜B站 / 小红书首页去推荐插件。英文 README 标题为「Intentional Browsing: Skip the Feed, Go Straight to Search」。仓库名保持 `intentional-browsing`。
 - About：`不入流｜B站 / 小红书首页去推荐插件。跳过首页推荐流，直达搜索和自己的收藏夹。`
 - Topics：`browser-extension`、`chrome-extension`、`edge-extension`、`bilibili`、`xiaohongshu`、`focus`。
 - 许可证已采用 MIT；版权署名使用项目集体名称 Still contributors，没有填写私人姓名或邮箱。
@@ -24,7 +24,7 @@
 
 ## 发布正式安装包
 
-在 GitHub 仓库的 Releases 创建 `v1.0.0`，标题可用「不入流 v1.0.0｜B站 / 小红书首页去推荐插件」。附加本次整理后构建的 `intentional-browsing-chromium-1.0.0.zip`，它补充了 MIT 许可证和公开文档，运行时代码与原正式版逐文件一致。本次交付的发布附件在源码目录旁的 `github-release-1.0.0` 文件夹中；之后自行构建则在 `dist` 中。
+[v1.0.0 Release](https://github.com/SweetPotato3553/intentional-browsing/releases/tag/v1.0.0) 已发布，包含安装 ZIP、源码 ZIP 和校验文件。后续发布可参考以下步骤：在 GitHub 仓库的 Releases 创建对应版本标签，标题可用「不入流 v1.0.0｜B站 / 小红书首页去推荐插件」。附加本次整理后构建的 `intentional-browsing-chromium-1.0.0.zip`，它补充了 MIT 许可证和公开文档，运行时代码与原正式版逐文件一致。本次交付的发布附件在源码目录旁的 `github-release-1.0.0` 文件夹中；之后自行构建则在 `dist` 中。
 
 还可以附加源码包和同目录的 SHA256SUMS.txt，方便下载者校验。不要把 940 特别版、整个旧工作区或浏览器数据附到 Release。
 
@@ -32,7 +32,7 @@
 
 发布正文可以复制：
 
-> 首个正式版。支持 B站和小红书网页版的纯净首页、关键词搜索、收藏直达、限时休息，以及知止 / 你学不学 / 同桌三种风格。电脑 Chrome / Edge 手动加载使用。下载下方 chromium 安装包，解压后加载里面的 extension 文件夹。完整安装方法见仓库 README。
+> 首个正式版。支持 B站和小红书网页版的纯净首页、关键词搜索、收藏夹快捷入口、限时放行，以及知止 / 你学不学 / 同桌三种风格。电脑 Chrome / Edge 手动加载使用。下载下方 chromium 安装包，解压后加载里面的 extension 文件夹。完整安装方法见仓库 README。
 
 1.0.0 的 86 个场景为模拟站点验证，真实扫码和验证码仍需本人操作。整理后的源码使用同一套运行时代码，并补充公开文档与 MIT 许可证。分发时请保留 LICENSE。
 
